@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black; /* Change the color as needed */
+}
+
+nav hr {
+  border: 0;
+  height: 1px;
+  background-color: #000; /* Change the color as needed */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.card {
+  border: 1px solid hs1(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.imahe{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: black;
+}
+.card-text{
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
