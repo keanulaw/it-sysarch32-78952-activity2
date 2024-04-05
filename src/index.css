@@ -1,68 +1,82 @@
-header {
-  display: flex;
-  align-items: center;
+/* index.css */
+
+/* Header styles */
+.head {
+  text-align: center;
+  padding: 20px;
+  background-color: lightblue
+
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.head nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.head nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.head nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.head nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Card styles */
+/* index.css */
+
+/* Card styles */
+/* index.css */
+
+/* Card styles */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 250px; /* Increase width */
+  height: 300px; /* Increase height */
+}
+
+.card img {
+  width: 100%;
+  height: 70%; /* Adjust height to accommodate text */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: contain; /* Ensure entire image is visible */
+}
+
+.card .card-info {
   padding: 10px;
 }
 
-h1 {
+.card .card-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card .card-text {
   margin: 0;
 }
 
-nav {
-  margin-left: 20px; /* Adjust the margin as needed */
-}
 
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin-right: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black; /* Change the color as needed */
-}
-
-nav hr {
-  border: 0;
-  height: 1px;
-  background-color: #000; /* Change the color as needed */
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-
-
-.card {
-  border: 1px solid hs1(0, 0%, 80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-  padding: 20px;
-  margin: 10px;
+/* Footer styles */
+footer {
   text-align: center;
-  max-width: 250px;
-  display: inline-block;
-}
-
-.imahe{
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.card-title{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  color: black;
-}
-.card-text{
-  font-family: Arial, sans-serif;
-  margin: 0;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
